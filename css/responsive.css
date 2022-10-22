@@ -1,0 +1,87 @@
+@media (min-width: 1200px) {}
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:300px) and (max-width:767px) {
+    .carousel-inner {
+        height: auto;
+    }
+    .courses .card {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .about-us h5 {
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 7px;
+    }
+    .about-us p {
+        text-transform: capitalize;
+        padding: 6px;
+        line-height: 21px;
+        color: #000000e0;
+    }
+    .Our-Events .coming-Events p {
+        padding: 5px;
+        line-height: 17px;
+    }
+    .top-courses p {
+        padding: 5px;
+        line-height: 17px;
+    }
+    .card-img-top {
+        min-height: 158px;
+    }
+    .card-title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .card-text {
+        font-size: 13px;
+    }
+    .Event-meta span {
+        color: #01406f;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .post-date {
+        position: absolute;
+        top: -19%;
+        background-color: #c5c5c5ee;
+        left: 1%;
+    }
+    .our_blog .post-date .list-inline li {
+        display: inline-block !important;
+        padding-right: 2px;
+        padding-left: 2px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .post h4 {
+        font-size: 22px;
+        text-transform: capitalize;
+        margin-bottom: 13px !important;
+    }
+    .post p {
+        font-size: 12px;
+    }
+    .post .view {
+        font-size: 12px;
+    }
+    .carousel-caption h5,
+    p {
+        font-size: 15px;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    footer {
+        text-align: center !important;
+    }
+    h2,
+    h3 h4 {
+        font-size: 20px !important;
+    }
+}

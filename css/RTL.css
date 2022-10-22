@@ -1,0 +1,38 @@
+body , html  {
+    direction: rtl !important;
+    text-align: right !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #48cfad;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 19px 0px 28px;
+    margin: 0 16px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 500ms ease 0s;}
+    
+.bg-light{
+    background:transparent!important;
+}
+.contact_us .contact-info .item .icon {
+    float: right;
+    font-size: 25px;
+    color: #48CFAD;
+    margin-left: 14px;
+}
+.list-inline i {
+    padding: 3px;
+    color: #48CFAD;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    background-color: #FFF !important;
+    transition: all 0.9s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 100%;
+}
